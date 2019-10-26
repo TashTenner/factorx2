@@ -6,27 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="Jackpot Delivery" content="The unexpected delivery" />
-    <link rel="stylesheet" href="main.css" />
-    <script src="app.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
     <link
+      href="https://fonts.googleapis.com/css?family=Numans&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
     />
+
     <title>Jackpot Delivery</title>
   </head>
   <body>
     <div class="container">
-      <img
-        id="pic1"
-        src="./images/delivery-truck.png"
-        width="100px"
-        height="100px"
-      />
-      <img id="pic2" src="./images/freak.png" width="100px" height="100px" />
-      <img id="pic3" src="./images/student.png" width="100px" height="100px" />
-      <input type="button" value="SPIN!" onclick="random_num ()" />
-      <div id="random-answer"></div>
+      <h1>Estas harto de la mala cara del repartidor</h1>
+      <h2>TRY & GET by Postopia</h2>
+      <div class="jackpot-images">
+        <img id="pic1" src="images/DISCO.png" />
+        <img id="pic2" src="images/HAND.png" />
+        <img id="pic3" src="images/LIPS.png" />
+        />
+      </div>
+
+      <div id="btn-pause">
+        <a onclick="random_num ()">
+          <img src="images/play-button.png" />
+        </a>
+      </div>
+
+      <div id="random-answer">
+        <form
+          name="myForm"
+          action="./success.html"
+          onsubmit="return validateForm()"
+        >
+          <span>Name:</span> <input type="text" name="fname" />
+          <span>Email:</span> <input type="text" name="femail" />
+          <input type="submit" value="Submit" />
+        </form>
+        <button id="hide-pause" onclick="">try&get again</button>
+      </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>

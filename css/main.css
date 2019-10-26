@@ -1,0 +1,32 @@
+@media (max-width: 650px) {
+  body {
+    background: url(../images/mobile-background.png);
+    background-repeat: no-repeat;
+  }
+}
+body {
+  /* background-color: red; */
+  font-family: 'Numans', sans-serif;
+  margin: 10px;
+  height: 100vh;
+}
+
+#random-answer {
+  visibility: hidden;
+}
+
+h1 {
+  font-size: 24px;
+  color: #ff01bc;
+}
+
+.jackpot-images {
+  display: flex;
+  justify-content: center;
+}
+
+.jaimg {
+  width: 105px;
+  height: 157px;
+  border: 7px solid #ff01bc;
+}
