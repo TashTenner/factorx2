@@ -9,17 +9,14 @@
     <link rel="stylesheet" type="text/css" href="./css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Numans&display=swap"
-      rel="stylesheet"
-    />
-
+    <link href="https://fonts.googleapis.com/css?family=Numans|Ubuntu+Mono&display=swap" rel="stylesheet">
     <title>Jackpot Delivery</title>
   </head>
   <body>
     <div class="container">
-      <h1>Estas harto de la mala cara del repartidor</h1>
       <h2>TRY & GET by Postopia</h2>
+      <h1>Estas harto de la mala cara del repartidor</h1>
+
       <div class="jackpot-images">
         <img id="pic1" src="images/DISCO.png" />
         <img id="pic2" src="images/HAND.png" />
@@ -28,23 +25,35 @@
       </div>
 
       <div id="btn-pause">
-        <a onclick="random_num ()">
-          <img src="images/play-button.png" />
-        </a>
+        <a onclick="random_num ()">JUGAR</a>
       </div>
 
+      <p id="USP">
+        Juega! Ring Ring! Abre la puerta! Y disfruta el SHOW!! Sorprendete con
+        nuestras originales experiencias de entrega. No olvides registrarte para
+        obtener tu codigo-descuento.
+      </p>
+
       <div id="random-answer">
+        <div id="btn-pause">
+        </div>
         <form
           name="myForm"
           action="./success.html"
           onsubmit="return validateForm()"
         >
-          <span>Name:</span> <input type="text" name="fname" />
-          <span>Email:</span> <input type="text" name="femail" />
-          <input type="submit" value="Submit" />
+          <input type="text" name="fname" placeholder="NAME" />
+          </span> <input type="text" name="femail" placeholder="EMAIL" />
+          <br />
+          <div id="btn-pause">
+          <input id="rcorners2" type="submit" value="SUSCRIBETE" />
+          </div>
         </form>
-        <button id="hide-pause" onclick="">try&get again</button>
+      <div id="btn-pause">
+        <button id="hide-pause" onclick="">NUEVA OFERTA</button>
       </div>
+      </div>
+      <p id="credits">Condiciones Generales de Uso y Contratación:  A través de las presentes Condiciones Generales, Postopia pone a disposición de los usuarios…</p>
     </div>
     <script src="app.js"></script>
   </body>

@@ -1,10 +1,6 @@
 var pics = new Array('pic1', 'pic2', 'pic3');
 
-var cards = new Array(
-  './images/freak.png',
-  './images/delivery-truck.png',
-  './images/student.png',
-);
+var cards = new Array('images/DISCO.png', 'images/HAND.png', 'images/LIPS.png');
 
 function random_num() {
   var win = true;

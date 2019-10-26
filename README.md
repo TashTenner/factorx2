@@ -28,4 +28,4 @@ URls for the project repo and deploy
 ### Slides
 
 URls for the project presentation (slides)
-[Link Slides.com](https://slides.com/tashbcn/deck)
+[Link](https://docs.google.com/presentation/d/1xhCP68Jw5f5157ljzdNVBZmhacRtlGrN1BTg2v5D6P0/edit)

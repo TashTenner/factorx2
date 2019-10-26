@@ -16,17 +16,99 @@ body {
 }
 
 h1 {
-  font-size: 24px;
-  color: #ff01bc;
+  margin-top: 22px;
+  margin-bottom: 46px;
+  font-size: 21px;
+  color: #ffbd03;
+  text-align: center;
+}
+
+h2 {
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  padding-top: 56px;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .jackpot-images {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
 }
 
-.jaimg {
+.jackpot-images img {
   width: 105px;
   height: 157px;
-  border: 7px solid #ff01bc;
+  border: 5px solid #ff01bc;
+  margin: 5px;
+}
+button {
+  color: #ffffff;
+}
+p {
+  color: #ffffff;
+}
+a,
+span {
+  color: #ffffff;
+}
+input {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #ff01bc;
+  color: #ff01bc;
+}
+
+::placeholder {
+  color: #ff01bc;
+}
+
+#rcorners2 {
+  border-radius: 20px;
+  background-color: #ff01bc;
+  text-align: center;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+#btn-pause {
+  display: flex;
+  justify-content: center;
+}
+#btn-pause a,
+button {
+  border-radius: 20px;
+  background-color: #ffbd03;
+  text-align: center;
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#credits {
+  position: absolute;
+  bottom: 5px;
+  font-size: 10px;
+  margin: 5px;
+}
+#USP {
+  margin-top: 22px;
+  font-size: 11px;
+  text-align: center;
+}
+
+#hide-pause {
+  border-radius: 20px;
+  background-color: #ffbd03;
+  text-align: center;
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+input {
+  margin: 3px;
 }
