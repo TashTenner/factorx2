@@ -112,3 +112,11 @@ button {
 input {
   margin: 3px;
 }
+#final-img {
+  width: 100%;
+  height: auto;
+}
+
+#sucess {
+  height: 100vh;
+}
